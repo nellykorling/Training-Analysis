@@ -1,0 +1,32 @@
+# Strava data: personal GPS and heart rate data, never commit
+strava_export/
+*.zip
+*.fit
+*.fit.gz
+*.gpx
+*.gpx.gz
+*.tcx
+*.tcx.gz
+*.csv
+
+# Derived data
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# Secrets (LLM API keys for the agent phase)
+.env
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Notebooks and outputs
+.ipynb_checkpoints/
+outputs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
